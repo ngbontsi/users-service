@@ -12,7 +12,7 @@ permissions:
 env:
   AWS_REGION: af-south-1
   ECR_REPOSITORY: users-service
-  ECS_SERVICE: users-service
+  ECS_SERVICE: users-service-task-service-swws23p0
   ECS_CLUSTER: decoded-platform-cluster
 
 jobs:
