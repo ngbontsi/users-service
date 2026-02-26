@@ -1,3 +1,11 @@
 spring:
   application:
     name: users-service
+
+  datasource:
+    url: jdbc:postgresql://devops-platform-db.c9ycg2ccg88l.af-south-1.rds.amazonaws.com:5432/users_db
+    username: platformadmin
+    password: ${DB_PASSWORD}
+    jpa:
+      hibernate:
+        ddl-auto:update
