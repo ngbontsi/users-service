@@ -13,7 +13,7 @@ env:
   AWS_REGION: af-south-1
   ECR_REPOSITORY: users-service
   ECS_SERVICE: users-service
-  ECS_CLUSTER: ndimphiwe-platform-cluster
+  ECS_CLUSTER: decoded-platform-cluster
 
 jobs:
   deploy:
