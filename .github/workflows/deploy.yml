@@ -33,6 +33,7 @@ jobs:
         run: mvn clean package -DskipTests
 
       - name: Configure AWS Credentials
+        id: login-ecr
         uses: aws-actions/configure-aws-credentials@v4
         with:
           role-to-assume: arn:aws:iam::879753556903:role/GitHubActionsECSDeployRole
